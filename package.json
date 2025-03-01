@@ -1,11 +1,12 @@
 {
-  "name": "automacao-appactions",
+  "name": "cy-appactions",
   "version": "1.0.0",
+  "description": "Exemplo de App Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
-  "author": "",
+  "author": "Diego",
   "license": "ISC",
   "keywords": [],
   "description": "",

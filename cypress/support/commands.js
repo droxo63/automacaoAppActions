@@ -40,4 +40,5 @@ Cypress.Commands.add("Checkout", ()=> {
     const checkoutPage = new CheckoutPage();
     checkoutPage.preencherDados(nome,sobrenome, empresa, pais, endereco1, endereco2, cidade, estado, cep, telefone, email)
     checkoutPage.concluirCompra()
+    cy.get('.page-title').should('contain', 'Pedido recebido')
 })
