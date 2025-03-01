@@ -1,0 +1,13 @@
+{
+  "nome": "Diego",
+  "sobrenome": "Pereira",
+  "empresa": "Ebac",
+  "pais": "Brasil",
+  "endereco1": "Avenida Getulio Vargas",
+  "endereco2": "110",
+  "cidade": "Jaú",
+  "estado": "São Paulo",
+  "cep": "17506201",
+  "telefone": "11995644563",
+  "email": "cliente@teste0.com.br"
+}
