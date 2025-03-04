@@ -1,7 +1,7 @@
 {
-  "name": "cy-appactions",
+  "name": "cy-intercept",
   "version": "1.0.0",
-  "description": "Exemplo de App Actions",
+  "description": "Exemplo de Cypress Intercept",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
