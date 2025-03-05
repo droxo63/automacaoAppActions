@@ -22,6 +22,12 @@ checkoutButton = '.checkout-button';
             cy.get(this.messageButton).click()
             cy.get(this.checkoutButton).click()
         }
+
+        removerProdutoDoCarrinho() {
+          // Supondo que o seletor do botão de remoção seja `.product-remove`
+         cy.visit("http://lojaebac.ebaconline.art.br/carrinho/")
+          cy.get("[title='Remove this item']").click();
+        }
     }
 
     
