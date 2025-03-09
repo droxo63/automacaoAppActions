@@ -7,14 +7,19 @@ colorButton = '.button-variable-item-Blue';
 addCartButton = '.single_add_to_cart_button';
 messageButton = '.woocommerce-message > .button';
 checkoutButton = '.checkout-button';
-
+quantityInput =  'input.qty';
+updateCartButton = '.pull-right > .btn';
+addProductButton = '.product .add-to-cart-button';
+updateCartMessage = '.woocommerce-message';
+subtotalCart = '.cart-subtotal .amount';
+removeProductButton = '.cart-remove-button';
 
     adicionaProdutoNoCarrinho(){
             cy.get(this.productChoiceButton, {timeout: 4000}).eq(0).click()
             cy.get('.button-variable-item-Green').click()
             cy.get(this.sizeButton).click()
             cy.get(this.colorButton).click()
-            cy.get('.input-text').clear().type("1")
+            cy.get('.input-text').clear().type("3")
             cy.get(this.addCartButton).click()
           }
 
@@ -24,11 +29,30 @@ checkoutButton = '.checkout-button';
         }
 
         removerProdutoDoCarrinho() {
-          // Supondo que o seletor do botão de remoção seja `.product-remove`
+
          
           cy.get("[title='Remove this item']").click();
         }
-    }
+
+        adicionarNoCarrinho() {
+          cy.get(this.addProductButton).click();
+        }
+      
+        alterarQuantidadeCarrinho(quantidade) {
+          cy.get(this.quantityInput).clear().type(quantidade);
+        }
+      
+        atualizarCarrinho() {
+          cy.get(this.updateCartButton).click();
+        }
+        removerDoCarrinho() {
+          cy.get(this.removeProductButton).click();
+        }
+        
+      }
+
+
+
 
     
 

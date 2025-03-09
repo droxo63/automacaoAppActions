@@ -1,0 +1,337 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "130.0.6723.137",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\repositorio\\automacao-appActions",
+    "projectName": "automacao-appActions",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\repositorio\\automacao-appActions\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "injectDocumentDomain": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\repositorio\\automacao-appActions",
+    "fixturesFolder": "C:\\repositorio\\automacao-appActions\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "justInTimeCompile": true,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 18642,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.15.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\repositorio\\automacao-appActions\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\repositorio\\automacao-appActions\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "133",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "133.0.6943.142"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "134",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "134.0.3124.51"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 130,
+        "name": "electron",
+        "path": "",
+        "version": "130.0.6723.137"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\diego\\AppData\\Local\\Cypress\\Cache\\14.1.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "14.1.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "14.1.0",
+  "endedTestsAt": "2025-03-09T22:06:52.414Z",
+  "osName": "win32",
+  "osVersion": "10.0.22631",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-09T22:05:18.364Z",
+        "end": "2025-03-09T22:05:44.670Z",
+        "duration": 26306
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/appActions-checkout.cy.js",
+        "fileExtension": ".js",
+        "fileName": "appActions-checkout",
+        "name": "appActions-checkout.cy.js",
+        "relative": "cypress\\e2e\\appActions-checkout.cy.js"
+      },
+      "stats": {
+        "duration": 26304,
+        "endedAt": "2025-03-09T22:05:44.661Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-09T22:05:18.357Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 26285,
+          "state": "passed",
+          "title": [
+            "Adicionar produto no carrinho e fazer checkout",
+            "Fluxo de produto no carrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-09T22:05:46.625Z",
+        "end": "2025-03-09T22:06:02.331Z",
+        "duration": 15706
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.add.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept.add",
+        "name": "intercept.add.cy.js",
+        "relative": "cypress\\e2e\\intercept.add.cy.js"
+      },
+      "stats": {
+        "duration": 15706,
+        "endedAt": "2025-03-09T22:06:02.330Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-09T22:05:46.624Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 15695,
+          "state": "passed",
+          "title": [
+            "Interceptar adição de produto ao carrinho",
+            "Deve adicionar um produto ao carrinho e validar a requisição"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 2,
+        "passes": 2,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-09T22:06:04.290Z",
+        "end": "2025-03-09T22:06:30.303Z",
+        "duration": 26013
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.delete.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept.delete",
+        "name": "intercept.delete.cy.js",
+        "relative": "cypress\\e2e\\intercept.delete.cy.js"
+      },
+      "stats": {
+        "duration": 26018,
+        "endedAt": "2025-03-09T22:06:30.300Z",
+        "failures": 0,
+        "passes": 2,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-09T22:06:04.282Z",
+        "suites": 1,
+        "tests": 2
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 14191,
+          "state": "passed",
+          "title": [
+            "Interceptar remoção de produto do carrinho",
+            "Deve remover um produto do carrinho e validar a requisição"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 11752,
+          "state": "passed",
+          "title": [
+            "Interceptar remoção de produto do carrinho",
+            "Deve falhar ao tentar remover um produto do carrinho"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-09T22:06:32.681Z",
+        "end": "2025-03-09T22:06:52.414Z",
+        "duration": 19733
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.update.cy.js",
+        "fileExtension": ".js",
+        "fileName": "intercept.update",
+        "name": "intercept.update.cy.js",
+        "relative": "cypress\\e2e\\intercept.update.cy.js"
+      },
+      "stats": {
+        "duration": 19733,
+        "endedAt": "2025-03-09T22:06:52.414Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-09T22:06:32.681Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 19719,
+          "state": "passed",
+          "title": [
+            "Interceptar atualização da quantidade de produtos no carrinho",
+            "Deve atualizar a quantidade do produto no carrinho e validar a requisição"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2025-03-09T22:05:18.357Z",
+  "totalDuration": 87761,
+  "totalFailed": 0,
+  "totalPassed": 5,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 4,
+  "totalTests": 5
+}

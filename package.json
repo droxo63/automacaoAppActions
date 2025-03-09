@@ -1,16 +1,21 @@
 {
-  "name": "cy-intercept",
+  "name": "cy-report",
   "version": "1.0.0",
-  "description": "Exemplo de Cypress Intercept",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run",
+    "report": "npm run mergeJsonReport && npm run generateReport",
+    "mergeJsonReport": "npx mochawesome-merge ./mochawesome-report/*.json -o ./mochawesome-report/result.json",
+    "generateReport": " npx marge ./mochawesome-report/result.json -o /mochawesome-report"
   },
   "author": "Diego",
   "license": "ISC",
   "keywords": [],
-  "description": "",
   "devDependencies": {
     "cypress": "^14.1.0"
+  },
+  "dependencies": {
+    "cypress-html-reporter": "^11.0.0"
   }
 }

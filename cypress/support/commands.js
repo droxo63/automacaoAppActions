@@ -52,7 +52,7 @@ Cypress.Commands.add('adicionarNoCarrinho', () => {
       expect(interception.response.statusCode).to.eq(200);
       expect(interception.response.body).to.have.property('fragments');
     });
-    cy.get('.woocommerce-message').should('contain', 'foi adicionado no seu carrinho.');
+    cy.get('.woocommerce-message').should('contain', 'foram adicionados no seu carrinho.');
     carrinhoPage.irParaCheckout();
     // Intercepta a requisição de atualização do pedido durante o checkout
     cy.intercept('POST', '/?wc-ajax=update_order_review').as('updateOrderReview');
