@@ -35,7 +35,7 @@
   <div class="container mt-3">
     <div class="navbar-text" style="font-size: medium; color: #888;">
       Browser: electron - 130.0.6723.137  |  Cypress Ver: 14.1.0  |
-      Platform OS: win32  |  Passed: 5  | Failed: 0 |  Skipped: 0 |
+      Platform OS: win32  |  Passed: 0  | Failed: 5 |  Skipped: 0 |
       Total Tests: 5
     </div>
   </div>
@@ -54,23 +54,23 @@
     <tbody>
       <tr>
         <th class="shaded-label">Passing %</th>
-        <td>100%</td>
-      </tr>
-      <tr>
-        <th class="shaded-label">Failing %</th>
         <td>0%</td>
       </tr>
       <tr>
+        <th class="shaded-label">Failing %</th>
+        <td>100%</td>
+      </tr>
+      <tr>
         <th class="shaded-label">Start Time</th>
-        <td>Mar 9, 2025, 07:05 PM GMT-3 </td>
+        <td>Apr 19, 2025, 02:37 PM GMT-3 </td>
       </tr>
       <tr>
         <th class="shaded-label">End Time</th>
-        <td>Mar 9, 2025, 07:06 PM GMT-3</td>
+        <td>Apr 19, 2025, 02:39 PM GMT-3</td>
       </tr>
       <tr>
         <th class="shaded-label">Execution time</th>
-        <td>1 min 27 sec</td>
+        <td>1 min 8 sec</td>
       </tr>
     </tbody>
   </table>
@@ -93,37 +93,42 @@
             
         <tr >
           <td style="width: 45%; text-align: left;">[Adicionar produto no carrinho e fazer checkout] Fluxo de produto no carrinho</td>
-          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
-          <td style="width: 5%; text-align: center;"></td>
-          <td style="width: 5%;">00 min 27 sec</td>
+          <td style="width: 45%; text-align: center;" class="failed">AssertionError: Timed out retrying after 4000ms: Expected to find element: `.woocommerce-message`, but never found it.
+    at Context.eval (webpack://cy-report/./cypress/support/commands.js:34:35)</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/appActions-checkout.cy.js/Adicionar produto no carrinho e fazer checkout -- Fluxo de produto no carrinho (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 13 sec</td>
         </tr>
       
         <tr >
           <td style="width: 45%; text-align: left;">[Interceptar adição de produto ao carrinho] Deve adicionar um produto ao carrinho e validar a requisição</td>
-          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
-          <td style="width: 5%; text-align: center;"></td>
-          <td style="width: 5%;">00 min 16 sec</td>
+          <td style="width: 45%; text-align: center;" class="failed">CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `addProductToCart`. No request ever occurred.
+</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/intercept.add.cy.js/Interceptar adição de produto ao carrinho -- Deve adicionar um produto ao carrinho e validar a requisição (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 21 sec</td>
         </tr>
       
         <tr >
           <td style="width: 45%; text-align: left;">[Interceptar remoção de produto do carrinho] Deve remover um produto do carrinho e validar a requisição</td>
-          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
-          <td style="width: 5%; text-align: center;"></td>
-          <td style="width: 5%;">00 min 15 sec</td>
+          <td style="width: 45%; text-align: center;" class="failed">AssertionError: Timed out retrying after 4000ms: Expected to find element: `[title='Remove this item']`, but never found it.
+    at CarrinhoPage.removerProdutoDoCarrinho (webpack://cy-report/./cypress/support/object-pages/fluxo-carrinho.js:34:13)</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/intercept.delete.cy.js/Interceptar remoção de produto do carrinho -- Deve remover um produto do carrinho e validar a requisição (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 13 sec</td>
         </tr>
       
         <tr >
           <td style="width: 45%; text-align: left;">[Interceptar remoção de produto do carrinho] Deve falhar ao tentar remover um produto do carrinho</td>
-          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
-          <td style="width: 5%; text-align: center;"></td>
-          <td style="width: 5%;">00 min 12 sec</td>
+          <td style="width: 45%; text-align: center;" class="failed">AssertionError: Timed out retrying after 4000ms: Expected to find element: `[title='Remove this item']`, but never found it.
+    at Context.eval (webpack://cy-report/./cypress/support/commands.js:88:5)</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/intercept.delete.cy.js/Interceptar remoção de produto do carrinho -- Deve falhar ao tentar remover um produto do carrinho (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 11 sec</td>
         </tr>
       
         <tr >
           <td style="width: 45%; text-align: left;">[Interceptar atualização da quantidade de produtos no carrinho] Deve atualizar a quantidade do produto no carrinho e validar a requisição</td>
-          <td style="width: 45%; text-align: center;" class="passed">Pass</td>
-          <td style="width: 5%; text-align: center;"></td>
-          <td style="width: 5%;">00 min 20 sec</td>
+          <td style="width: 45%; text-align: center;" class="failed">AssertionError: Timed out retrying after 4000ms: Expected to find element: `input.qty`, but never found it.
+    at Context.eval (webpack://cy-report/./cypress/support/commands.js:102:24)</td>
+          <td style="width: 5%; text-align: center;"> <a href="http://127.0.0.1:8080/cypress/screenshots/intercept.update.cy.js/Interceptar atualização da quantidade de produtos no carrinho -- Deve atualizar a quantidade do produto no carrinho e validar a requisição (failed).png" target="_blank">Screenshot</a></td>
+          <td style="width: 5%;">00 min 12 sec</td>
         </tr>
       
           </tbody>
@@ -133,7 +138,7 @@
       <script>
         document.addEventListener('DOMContentLoaded', function () {
           // Call a function to draw the pie chart
-          drawPieChart(5, 0, 0);
+          drawPieChart(0, 5, 0);
         });
 
         function drawPieChart(pass, fail, skipped) {

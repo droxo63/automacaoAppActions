@@ -1,6 +1,8 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "1dxubi",  
+
   e2e: {
     baseUrl: "http://lojaebac.ebaconline.art.br/",
     setupNodeEvents(on, config) {

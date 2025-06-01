@@ -39,7 +39,7 @@
     "numTestsKeptInMemory": 0,
     "platform": "win32",
     "pageLoadTimeout": 60000,
-    "port": 18642,
+    "port": 55657,
     "projectId": null,
     "redirectionLimit": 20,
     "reporter": "spec",
@@ -74,19 +74,19 @@
         "channel": "stable",
         "displayName": "Chrome",
         "family": "chromium",
-        "majorVersion": "133",
+        "majorVersion": "135",
         "name": "chrome",
         "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
-        "version": "133.0.6943.142"
+        "version": "135.0.7049.96"
       },
       {
         "channel": "stable",
         "displayName": "Edge",
         "family": "chromium",
-        "majorVersion": "134",
+        "majorVersion": "135",
         "name": "edge",
         "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        "version": "134.0.3124.51"
+        "version": "135.0.3179.85"
       },
       {
         "channel": "stable",
@@ -107,7 +107,7 @@
     "cypressInternalEnv": "production"
   },
   "cypressVersion": "14.1.0",
-  "endedTestsAt": "2025-03-09T22:06:52.414Z",
+  "endedTestsAt": "2025-04-19T17:39:15.847Z",
   "osName": "win32",
   "osVersion": "10.0.22631",
   "runs": [
@@ -117,14 +117,22 @@
       "reporterStats": {
         "suites": 1,
         "tests": 1,
-        "passes": 1,
+        "passes": 0,
         "pending": 0,
-        "failures": 0,
-        "start": "2025-03-09T22:05:18.364Z",
-        "end": "2025-03-09T22:05:44.670Z",
-        "duration": 26306
+        "failures": 1,
+        "start": "2025-04-19T17:37:58.147Z",
+        "end": "2025-04-19T17:38:10.667Z",
+        "duration": 12520
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots\\appActions-checkout.cy.js\\Adicionar produto no carrinho e fazer checkout -- Fluxo de produto no carrinho (failed).png",
+          "takenAt": "2025-04-19T17:38:10.127Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/appActions-checkout.cy.js",
         "fileExtension": ".js",
@@ -133,13 +141,13 @@
         "relative": "cypress\\e2e\\appActions-checkout.cy.js"
       },
       "stats": {
-        "duration": 26304,
-        "endedAt": "2025-03-09T22:05:44.661Z",
-        "failures": 0,
-        "passes": 1,
+        "duration": 12526,
+        "endedAt": "2025-04-19T17:38:10.659Z",
+        "failures": 1,
+        "passes": 0,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-03-09T22:05:18.357Z",
+        "startedAt": "2025-04-19T17:37:58.133Z",
         "suites": 1,
         "tests": 1
       },
@@ -147,12 +155,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 26285,
-          "state": "passed",
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.woocommerce-message`, but never found it.\n    at Context.eval (webpack://cy-report/./cypress/support/commands.js:34:35)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:138827:43)",
+          "duration": 12505,
+          "state": "failed",
           "title": [
             "Adicionar produto no carrinho e fazer checkout",
             "Fluxo de produto no carrinho"
@@ -167,14 +175,22 @@
       "reporterStats": {
         "suites": 1,
         "tests": 1,
-        "passes": 1,
+        "passes": 0,
         "pending": 0,
-        "failures": 0,
-        "start": "2025-03-09T22:05:46.625Z",
-        "end": "2025-03-09T22:06:02.331Z",
-        "duration": 15706
+        "failures": 1,
+        "start": "2025-04-19T17:38:13.742Z",
+        "end": "2025-04-19T17:38:34.756Z",
+        "duration": 21014
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots\\intercept.add.cy.js\\Interceptar adição de produto ao carrinho -- Deve adicionar um produto ao carrinho e validar a requisição (failed).png",
+          "takenAt": "2025-04-19T17:38:34.426Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.add.cy.js",
         "fileExtension": ".js",
@@ -183,13 +199,13 @@
         "relative": "cypress\\e2e\\intercept.add.cy.js"
       },
       "stats": {
-        "duration": 15706,
-        "endedAt": "2025-03-09T22:06:02.330Z",
-        "failures": 0,
-        "passes": 1,
+        "duration": 21014,
+        "endedAt": "2025-04-19T17:38:34.748Z",
+        "failures": 1,
+        "passes": 0,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-03-09T22:05:46.624Z",
+        "startedAt": "2025-04-19T17:38:13.734Z",
         "suites": 1,
         "tests": 1
       },
@@ -197,12 +213,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 15695,
-          "state": "passed",
+          "displayError": "CypressError: Timed out retrying after 15000ms: `cy.wait()` timed out waiting `15000ms` for the 1st request to the route: `addProductToCart`. No request ever occurred.\n\nhttps://on.cypress.io/wait\n    at cypressErr (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:75176:18)\n    at Object.errByPath (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:75230:10)\n    at checkForXhr (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:136078:84)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:136104:28)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:4285:29)\n    at whenStable (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:144490:68)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:144431:14)\n    at tryCatcher (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1671:18)\n    at Promise._fulfill (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:1615:18)\n    at <unknown> (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:5420:46)\nFrom Your Spec Code:\n    at Context.eval (webpack://cy-report/./cypress/support/commands.js:51:7)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:138827:43)",
+          "duration": 21000,
+          "state": "failed",
           "title": [
             "Interceptar adição de produto ao carrinho",
             "Deve adicionar um produto ao carrinho e validar a requisição"
@@ -217,14 +233,29 @@
       "reporterStats": {
         "suites": 1,
         "tests": 2,
-        "passes": 2,
+        "passes": 0,
         "pending": 0,
-        "failures": 0,
-        "start": "2025-03-09T22:06:04.290Z",
-        "end": "2025-03-09T22:06:30.303Z",
-        "duration": 26013
+        "failures": 2,
+        "start": "2025-04-19T17:38:37.809Z",
+        "end": "2025-04-19T17:39:00.866Z",
+        "duration": 23057
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots\\intercept.delete.cy.js\\Interceptar remoção de produto do carrinho -- Deve remover um produto do carrinho e validar a requisição (failed).png",
+          "takenAt": "2025-04-19T17:38:49.642Z",
+          "width": 1280
+        },
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots\\intercept.delete.cy.js\\Interceptar remoção de produto do carrinho -- Deve falhar ao tentar remover um produto do carrinho (failed).png",
+          "takenAt": "2025-04-19T17:39:00.488Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.delete.cy.js",
         "fileExtension": ".js",
@@ -233,13 +264,13 @@
         "relative": "cypress\\e2e\\intercept.delete.cy.js"
       },
       "stats": {
-        "duration": 26018,
-        "endedAt": "2025-03-09T22:06:30.300Z",
-        "failures": 0,
-        "passes": 2,
+        "duration": 23056,
+        "endedAt": "2025-04-19T17:39:00.851Z",
+        "failures": 2,
+        "passes": 0,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-03-09T22:06:04.282Z",
+        "startedAt": "2025-04-19T17:38:37.795Z",
         "suites": 1,
         "tests": 2
       },
@@ -247,12 +278,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 14191,
-          "state": "passed",
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[title='Remove this item']`, but never found it.\n    at CarrinhoPage.removerProdutoDoCarrinho (webpack://cy-report/./cypress/support/object-pages/fluxo-carrinho.js:34:13)\n    at Context.eval (webpack://cy-report/./cypress/support/commands.js:71:14)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:138827:43)",
+          "duration": 12059,
+          "state": "failed",
           "title": [
             "Interceptar remoção de produto do carrinho",
             "Deve remover um produto do carrinho e validar a requisição"
@@ -261,12 +292,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 11752,
-          "state": "passed",
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[title='Remove this item']`, but never found it.\n    at Context.eval (webpack://cy-report/./cypress/support/commands.js:88:5)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:138827:43)",
+          "duration": 10912,
+          "state": "failed",
           "title": [
             "Interceptar remoção de produto do carrinho",
             "Deve falhar ao tentar remover um produto do carrinho"
@@ -281,14 +312,22 @@
       "reporterStats": {
         "suites": 1,
         "tests": 1,
-        "passes": 1,
+        "passes": 0,
         "pending": 0,
-        "failures": 0,
-        "start": "2025-03-09T22:06:32.681Z",
-        "end": "2025-03-09T22:06:52.414Z",
-        "duration": 19733
+        "failures": 1,
+        "start": "2025-04-19T17:39:04.444Z",
+        "end": "2025-04-19T17:39:15.859Z",
+        "duration": 11415
       },
-      "screenshots": [],
+      "screenshots": [
+        {
+          "height": 720,
+          "name": null,
+          "path": "C:\\repositorio\\automacao-appActions\\cypress\\screenshots\\intercept.update.cy.js\\Interceptar atualização da quantidade de produtos no carrinho -- Deve atualizar a quantidade do produto no carrinho e validar a requisição (failed).png",
+          "takenAt": "2025-04-19T17:39:15.560Z",
+          "width": 1280
+        }
+      ],
       "spec": {
         "absolute": "C:/repositorio/automacao-appActions/cypress/e2e/intercept.update.cy.js",
         "fileExtension": ".js",
@@ -297,13 +336,13 @@
         "relative": "cypress\\e2e\\intercept.update.cy.js"
       },
       "stats": {
-        "duration": 19733,
-        "endedAt": "2025-03-09T22:06:52.414Z",
-        "failures": 0,
-        "passes": 1,
+        "duration": 11415,
+        "endedAt": "2025-04-19T17:39:15.847Z",
+        "failures": 1,
+        "passes": 0,
         "pending": 0,
         "skipped": 0,
-        "startedAt": "2025-03-09T22:06:32.681Z",
+        "startedAt": "2025-04-19T17:39:04.432Z",
         "suites": 1,
         "tests": 1
       },
@@ -311,12 +350,12 @@
         {
           "attempts": [
             {
-              "state": "passed"
+              "state": "failed"
             }
           ],
-          "displayError": null,
-          "duration": 19719,
-          "state": "passed",
+          "displayError": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `input.qty`, but never found it.\n    at Context.eval (webpack://cy-report/./cypress/support/commands.js:102:24)\n    at wrapped (http://lojaebac.ebaconline.art.br/__cypress/runner/cypress_runner.js:138827:43)",
+          "duration": 11396,
+          "state": "failed",
           "title": [
             "Interceptar atualização da quantidade de produtos no carrinho",
             "Deve atualizar a quantidade do produto no carrinho e validar a requisição"
@@ -326,10 +365,10 @@
       "video": null
     }
   ],
-  "startedTestsAt": "2025-03-09T22:05:18.357Z",
-  "totalDuration": 87761,
-  "totalFailed": 0,
-  "totalPassed": 5,
+  "startedTestsAt": "2025-04-19T17:37:58.133Z",
+  "totalDuration": 68011,
+  "totalFailed": 5,
+  "totalPassed": 0,
   "totalPending": 0,
   "totalSkipped": 0,
   "totalSuites": 4,
